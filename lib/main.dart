@@ -95,11 +95,9 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.display1,
+              'No Image Picked.\nClick The \'+\' Button To Get Started!',
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 16, height: 1.5),
             ),
           ],
         ),
